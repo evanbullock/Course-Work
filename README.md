@@ -1,7 +1,7 @@
 # Course-Work
 A portfolio of course projects.
 By:Evan Bullock
-
+*All of these projects were made for academic purposes only*
 
 
 ***COPYRIGHT DISCLOSURE: None of these projects should be reused by any means.***
