@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Math 300 Assignment 3</title>
+    <link rel="stylesheet" type="text/css" href="HW3.css" />
+</head>
+<body>
+<div id="headings">
+<h1>A Mathematical Web</h1>
+<h2>Roots of Polynomials</h2>
+</div>
+<div id="nav">
+<ul>
+  <li><a href="http://math.wsu.edu/kcooper/M300/HWpoly_home.html">Home</a></li>
+  <li><a href="http://math.wsu.edu/kcooper/M300/HWpoly_quadratic.html">The Quadratic</a></li>
+  <li><a href="http://math.wsu.edu/kcooper/M300/HWpoly_cubic.html">The Cubic</a></li>
+  <li><a href="http://math.wsu.edu/kcooper/M300/HWpoly_quartic.html">The Quartic</a></li>
+  <li><a href="http://math.wsu.edu/kcooper/M300/HWpoly_galois.html">Galois Theory</a></li>
+</ul>
+</div> 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<div id="content">
+<h1>The Cubic</h2>
+<p>
+A polynomial of degree three is called a cubic, and an equation invloving a cubic polynomial whose value is zero is called a cubic equation.
+the solutions of a cubic equation are a called the <i>roots</i> of the polynomial.Figure 1 shows the graph of a cupic polynomial.
+<div class="figure">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Polynomialdeg3.svg/400px-Polynomialdeg3.svg.png"><br>
+Figure 1. A cubic polynomial<sup>*</sup>
+</div>
+</p>
+<p>
+As with quadratics, the ideas around cubic polynomials were familiar to ancient people, 
+including the Babylonians.However, those ancients were not nearly as good at solving for the roots of cubics
+as they were at quadratics.It was not until the time of Tartaglia (1500-1557) and Cardano (1501-1576)
+that Europeans began to be able to solve a general calss of cubics.
+</p>
+<p>
+Cubics are handled very similarly to quadratics-indeed, the problem of finding their roots devolves to finding one root, factoring the polynomial,
+and then using the quadratic formula on the part that remains. We can write a general cubic polynomial as
+\[p(x)=ax^3+bx^2+d\]
+Naturally we have a tacit assumption that 
+\(a\neq 0,\)
+since otherwise the polynomial would have degree less than three.For simplicity we assume that all the coefficients are real,
+though the following expressions remain valid when they are complex.We note that inasmuch as the dominant term
+\(x^3\) goes toward positive infinity as \(x\) increases, and toward negative infinity as \(x\) decreases, there is always a point where the cubic has value zero.
+In other words, we are guaranteed one real root.
+</p>
+<p>
+In writing the roots of the polynomial, there is a term that occurs often. Let
+<math mode="display">
+<mi>&Lambda;</mi>
+<mo>=</mo>
+<mroot>
+ <mrow>
+  <mrow>
+   <mfrac>
+       <mn>1</mn>
+       <mn>2</mn>
+    </mfrac>
+     <mi>B</mi>
+     <mo>+</mo>
+   <msqrt>
+    <mrow>
+     <msup>
+      <mi>B</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>-</mo>
+     <mrow>
+      <mn>4</mn>
+      <mi>C</mi>
+     </mrow>
+    </mrow>
+   </msqrt>
+  </mrow>
+ </mrow>
+<mn>3</mn>
+</mroot>
+<mi>,</mi>
+</math>
+where
+\(B=2b^3-9abc+27a^2d\) and \(C=b^2-3ac.\) Using this notation, we can write the first root of \(p\)
+as 
+\[\Lambda_0 =-\frac{1}{3a}b+\Lambda+\frac{C}{\Lambda}\]
+The other two roots come from the quadratic that results when the linear factor from this root is divided
+out of the cubic polynomial.Letting \(\sigma=\frac{1}{2}(-1+i\sqrt{3}),\)
+the first of those roots has the form \(p\) as
+\[\Lambda_1 =-\frac{1}{3a}b+\sigma\Lambda+\frac{C}{\sigma\Lambda}.\]
+The other root \(\Lambda_2\) is obtained from this last expression by replacing \(\sigma\) by \(\bar{\sigma}.\)
+</p>
+</div>
+<div id="footnotes">
+* By N.Mori (Polynomialdeg3.png)[Public domain], via Wikimedia Commons <br>
+</div>
+<div id="footer">
+Copyright &#169; 2017 Kevin Cooper
+</div>
+</html>

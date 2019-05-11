@@ -1,0 +1,50 @@
+#headings{
+
+float:top;
+float:left;
+background-color:DarkRed;
+width:100%;
+min-height:60px;
+}
+#headings h1{color:white;
+
+padding-left:2em;}
+
+#headings h2{color:DeepSkyBlue;
+padding-left:4em;
+padding-bottom:1em;
+}
+#nav
+{
+list-style-type:none;
+background-color:lightgrey;
+width:100%;
+min-height:40px;
+max-height:50px;
+margin:0;
+padding:0;
+overflow:hidden
+}
+#nav li
+{float:left;
+list-style-type:none;}
+#nav a{
+list-style-type:none;
+display:inline;
+color:DarkRed;
+text-align:center;
+padding: 25px 65px;
+text-decoration:none;
+}
+#nav a:hover
+{
+background-color:DeepSkyBlue;
+}
+
+.figure img{
+width:20%;
+float:right
+}
+#footer {clear:right;}
+<!-- guided from https://www.w3schools.com/css/css_navbar.asp -->
+
