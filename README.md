@@ -11,7 +11,7 @@ By:Evan Bullock
 
 Reports
 
-•These provide links for several reports I have made in class with my in class partner, through multiple semesters of MIS course work. •This includes public links for PowerBI and Tableau reports made through using public data. 
+•These provide links for several reports I have made in class with my in class partner, through multiple semesters of MIS course work. This includes public links for PowerBI and Tableau reports made through using public data. 
 
 NBA Simulator
 
