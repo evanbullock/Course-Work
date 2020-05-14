@@ -10,6 +10,7 @@ By:Evan Bullock
 
 
 NBA Simulator
+
  •An NBA All-star draft + game simulation made through excel's VBA, Macros,  and statistical simulations based off current statistics.
 
 Escape 32 Project Files- CptS 122 Final Project
